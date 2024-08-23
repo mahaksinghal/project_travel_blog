@@ -10,11 +10,11 @@
 {% block content %}
 <!-- {{articles}} -->
 
-<!-- {% for item in articles %}
+{% for item in articles %}
 <div class="container my-2">
     <div class="row">
         <div class="col-md-2">
-            <img src="{{item.image.url}}" alt="{{item.title}}" class="rounded-2" height="200", width="200"/>
+            <img src="{{item.image.url}}" alt="{{item.title}}" class="rounded-2" height="200" , width="200" />
         </div>
         <div class="col">
             <h2>{{item.title}}</h2>
@@ -25,7 +25,7 @@
         </div>
     </div>
 </div>
-{% endfor %} -->
+{% endfor %}
 
 <!-- 
 {% for item in articles %}
@@ -43,7 +43,7 @@
         
 {% endfor %} -->
 
-{% for item in articles %}
+<!-- {% for item in articles %}
 <div class="container-fluid my-2">
     <div class="row">
         <div class="col-md-4 mb-2">
@@ -58,6 +58,6 @@
         </div>
     </div>
 </div>
-{% endfor %}
+{% endfor %} -->
 
 {% endblock content %}
