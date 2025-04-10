@@ -28,7 +28,7 @@ urlpatterns = [
     path("__reload__/", include("django_browser_reload.urls")),
     # main views
     path("", main_views.index, name = "index"),
-    path("login", main_views.login_view, name = "login"),
+    path("login/", main_views.login_view, name = "login"),
     path("register", main_views.register_view, name = "register"),
     path("logout", main_views.logout_view, name = "logout"),
     # blog views
